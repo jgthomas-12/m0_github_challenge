@@ -17,3 +17,10 @@ Describe in your own words how to establish a connection between a local reposit
 - Enter `git remote add origin <SSH key from GitHub remote repository>`
 - Enter `git push -u origin main`
 - The two repositories should now be connected and one can just enter `git push` to get new entries to the remote repository because we've established the remote repository as the main origin. 
+
+
+## Things to be aware of
+
+1. Don't make a directory for something you're going to `git clone`, it will happen when you clone the repository.
+2. Make sure you are `git add`ing and `git commit`ing the FILE not the directory, ya donkey. 
+3. You can just `git push` the file once you've cloned it. You don't need to establish the branch origin or any of that fancy ssh stuff (Because you already added it when you cloned the repository)
