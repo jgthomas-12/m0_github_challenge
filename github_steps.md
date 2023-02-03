@@ -30,3 +30,5 @@ Describe in your own words how to establish a connection between a local reposit
 - Try going back and re-doing the two exercises
 
 ## NEW HEADER
+
+- I think I got it? 
